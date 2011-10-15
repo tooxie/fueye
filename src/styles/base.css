@@ -1,0 +1,25 @@
+body {
+    background-image: url(../images/112257.jpg);
+    text-align: center;
+    overflow: hidden;
+}
+#ff {
+    background-image: url(../images/firefoxlogo.png);
+    background-repeat: no-repeat;
+    height: 288px;
+    position: relative;
+    top: -387px;
+    width: 300px;
+    margin: auto;
+}
+#spiral {
+    background-image: url(../images/spiral.png);
+    background-repeat: no-repeat;
+    height: 485px;
+    width: 500px;
+    margin: auto;
+}
+#spiral, #ff {
+    -moz-transition: opacity 3s, -moz-transform 3s;
+    -webkit-transition: opacity 3s, -webkit-transform 3s;
+}

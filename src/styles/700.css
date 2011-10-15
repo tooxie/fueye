@@ -1,0 +1,16 @@
+body {
+    background-image: url(../images/112257.jpg);
+}
+#spiral {
+    -moz-transform:rotate(-700deg);
+    -webkit-transform:rotate(-700deg);
+    opacity: 100;
+}
+#ff {
+    -moz-transform:rotate(700deg);
+    -webkit-transform:rotate(700deg);
+    background-image: url(../images/firefoxlogo.png);
+    height: 288px;
+    opacity: 100;
+    width: 300px;
+}

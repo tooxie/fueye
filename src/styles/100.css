@@ -1,0 +1,17 @@
+body {
+    background-image: url(../images/mozillalogo.png);
+    repeat: none;
+}
+#spiral {
+    -moz-transform:rotate(-1300deg);
+    -webkit-transform:rotate(-1300deg);
+    opacity: 0;
+}
+#ff {
+    -moz-transform:rotate(1300deg);
+    -webkit-transform:rotate(1300deg);
+    background-image: url(../images/firefoxmini.png);
+    height: 92px;
+    opacity: 0;
+    width: 96px;
+}
